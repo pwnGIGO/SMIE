@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	font-family: 'Arial', serif;
+	font-size: 16px;
+	
+}
+body{
+margin-bottom: 30px;
+}
+
+
+
+nav{
+	/*background: #85C2C7; color de las barras de navegacion*/
+	width: 100%;
+}
+#btn-menu{
+	display: none;
+}
+.imagen-label{
+	display: none;
+	width: 70px;
+	height: 70px;
+	padding: 30px 20px;
+	border-right: 1px solid #fff;
+
+}
+.imagen-label:hover{
+	cursor: pointer;
+
+}
+
+.menu ul , .menu-1 ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content:center;
+}
+.menu li,.menu-1 li{
+	/*flex-grow: 1;
+	/* las cajas se ocupan de manera uniforme en el 100% */
+	width: 12%;
+	padding: 15px 15px;
+}
+
+.menu li a, .menu-1 li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Arial', serif;
+	font-size: 18px;
+
+}
+.menu li:hover,.menu-1 li:hover{
+background: rgba(0,0,0,0.1);
+}
+
+/*...........................Responsive.......................,...................*/
+
+@media only screen and (min-width:769px) and (max-width:1000px) {
+.menu li a,.menu-1 li a{
+	font-size: 12px;
+}
+
+}
+
+@media only screen and (max-width: 768px){
+	.imagen-label{display: block; margin: 30px 10px;}
+
+	.menu{
+		position: absolute;
+		width: 90%;
+		margin-left: -90%;
+		transition: all 0.5s;
+	}
+
+	.menu ul{flex-direction: column;}
+
+	.menu li{
+		border-top: 1px solid #fff;
+		width: 90%;
+	}
+
+	#btn-menu:checked ~ .menu{
+		margin: 0;
+	}
+
+	/*...............segundo menu...........*/
+	.menu-1{
+		width:70%;
+	}
+	.menu-1 ul{
+		display: block;
+		width: 100%;
+	}
+	.menu-1 li{
+		border-top: 1px solid #fff;
+		width: 100%;
+	}
+
+	/*......................footer..............*/
+	footer div{
+		display: inline;
+		width: 100%;
+	}
+
+
+	/*.............error problema de la barra de navegacion..............*/
+	.container {
+
+	    width: 100%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+
+	}
+
+	.navbar-expand-md .navbar-collapse {
+
+	    display: flex !important;
+	    flex-basis: auto;
+
+	}
+
+}/*fin del responsive*/
+
+
+/**.............................texto.............................*/
+section p, ol{
+	font-size: 16px;
+	margin: 20px 30px;
+	margin-left: 15%;
+	width: 75%;
+	line-height: 22px;
+	text-align: justify;
+
+}
+
+/*...............................fooder (pie)......................*/
+
+
+footer div{
+	width: 30%;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	vertical-align: text-top;
+}
+
+footer div a{
+	color: white;
+	text-decoration: none;
+}
+
+footer div a:hover{
+	color:#1E90FF;
+	text-decoration: underline;
+
+}
+
+
+.tabla_miembros{
+    width: 85%;
+    background-color:#F0F8FF;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.tabla_miembros tr td{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.izq{
+    text-align: right;
+}
+.der{
+    text-align: left;
+}
+
+.encabezado{
+	font-weight: 900;
+
+}
+.navbar-laravel2 {
+    background-color: #c1daca;
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+
+/*..............................carrusel ......................*/
+
+.divPrincipal{
+	width:60%; 
+	margin:40px; 
+	padding:10px; 
+	display:inline-block;
+}
+
+#carrusel_t{
+	width: 50%;
+
+}
+
+.uno{
+	display: inline-block;
+	margin: 60px;
+	margin-left: 150px;
+
+}
+
+.uno img,.uno div img{
+	width: 350px;
+	height: 350px;
+
+}
+
+.uno p{
+	font-size: 28px;
+	margin: 10px;
+}
+
+.text{
+	font-size: 28px;
+	font-weight:bold;
+}
+
+
+.navbar{
+	margin-bottom: 0px;
+}

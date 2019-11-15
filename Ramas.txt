@@ -1,0 +1,5 @@
+Master: Es la rama (branch) que tiene la última versión productiva del código.
+Release: Es la rama que contiene los nuevos features terminados que se van desarrollando para el siguiente lanzamiento (release) de forma que al iniciar uno nuevo puedas descargar todos los anteriores por si tienen alguna dependencia.
+Develop: Es la rama que contiene las características (features) en desarrollo en una iteración, esta rama será posteriormente parte de Release mediante un pull request.
+Feature: Es la rama que contiene el feature en el que estás trabajando personalmente (varios desarrolladores pueden trabajar en un feature), éste debe ser enviado a develop mediante un full request, por lo general aprobado por el líder técnico.
+Hotfix: Es la rama que contiene cambios urgentes sobre master que permiten corregir un bug o resolver un error, éste debe ser enviado a master y se debe notificar a todos los desarrolladores para que puedan actualizar sus ramas.

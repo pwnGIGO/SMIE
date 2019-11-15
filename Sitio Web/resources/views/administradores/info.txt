@@ -1,0 +1,3 @@
+administradores:
+	Contiene los formularios para realizar cambios
+	en la aplicacion dependiendo de la pestaña

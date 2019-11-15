@@ -1,0 +1,11 @@
+-Crear nuevo proyecto
+composer create-project laravel/laravel mi-proyecto-laravel
+
+-Migrar tablas a la BD
+php artisan migrate
+
+-Crear usuario
+php artisan tinker
+factory('App\User')->create()
+
+php artisan key:

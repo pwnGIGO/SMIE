@@ -1,0 +1,3 @@
+auth:
+	Contiene los formularios para inicio de sesion 
+	y de registro, entre otros

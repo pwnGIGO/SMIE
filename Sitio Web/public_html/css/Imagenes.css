@@ -1,0 +1,40 @@
+/*Imagenes del encabezado*/
+.smie{
+	width: 25%;
+}
+
+.uam{
+	width: 25%;
+}
+
+.cbi{
+	width: 20%;
+}
+
+.smie, .uam, .cbi{
+	display: inline-block;
+	margin: 1% 4%;
+}
+
+/*Imagenes de la pestaña inicio*/
+.inicio1{
+	width: 40%;	
+	display: inline-block;
+	padding: 20px;
+	margin-left: 40px;
+}
+.organigrama{
+	width: 50%;
+	display: flex; 
+
+}
+.red_social{
+	width: 40px;
+	border-radius: 20px;
+}
+
+/*Imagenes de la pestana capitulo estudiantil*/
+
+.capitulo-estudiantil{
+	width: 55%;
+}

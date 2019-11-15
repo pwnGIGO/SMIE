@@ -1,0 +1,3 @@
+añadir a las pestañas inicio e Historia
+en inicio va de lado derecho de la imagen donde hay varios chavos
+en historia va hasta abajo, despues del texto

@@ -1,0 +1,4 @@
+publico:
+	Tiene el contenido que debe mostrar
+	cada pestaña que puede ver 
+	cualquier usuario

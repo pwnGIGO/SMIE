@@ -1,0 +1,33 @@
+.div{
+	width: 75%;
+	margin: 0 15%;
+}
+.lista{
+list-style: none;
+}
+
+.mySlides {
+	display:none
+}
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer
+}
+.w3-badge {
+	height:13px;
+	width:13px;
+	padding:0
+}
+
+.eventos{
+	background: #F3C84A;
+}
+
+h2{
+	font-size: 22px;
+	margin: 20px 30px;
+	margin-left: 15%;
+	width: 75%;
+	line-height: 22px;
+	text-align: justify;
+}
+

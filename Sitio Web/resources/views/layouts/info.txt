@@ -1,0 +1,4 @@
+layouts:
+	Contiene la base de la vista a mostrar
+	como la cabecera, el pie de pagina y 
+	los menu de navegación

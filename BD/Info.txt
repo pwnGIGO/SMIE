@@ -1,0 +1,13 @@
+Tablas:
+ album
+ ima
+ migrations
+ password_resets
+ permissions
+ permission_role
+ permission_user
+ roles
+ role_user
+ users
+
+con sus respectivos inserts
