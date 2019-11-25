@@ -62,7 +62,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div>
-                        <p>V 3.8</p>
+                        <p>V 3.9</p>
                     </div>
                     <div>
                         <a class="nav-link" href="{{ url('/') }}">Sitio Usuario</a>

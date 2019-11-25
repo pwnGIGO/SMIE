@@ -62,7 +62,7 @@
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel2">
             <div class="container">
                 <div>
-                    <p>V 3.8</p>
+                    <p>V 3.9</p>
                 </div>
                 <div>
                      @can('admi.admi')
