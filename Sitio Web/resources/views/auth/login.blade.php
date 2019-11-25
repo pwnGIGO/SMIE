@@ -1,4 +1,4 @@
-@extends('layouts.plantilla_usuario')
+@extends('layouts.plantilla_login')
 
 @section('Contenido_Usuario')
 <div class="container">

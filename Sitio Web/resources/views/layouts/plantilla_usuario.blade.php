@@ -57,8 +57,7 @@
                 </a>
             </div>
         </header>
-
-        <!-- =======================Barra de Administrador====================== -->
+<!-- =======================Barra de Administrador====================== -->
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel2">
             <div class="container">
                 <div>
@@ -80,9 +79,6 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Iniciar Sesión') }}</a>
-                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('register') }}">{{ __('Registrarse') }}</a>
                             </li>
@@ -114,7 +110,6 @@
             </div>
         </nav>
         <!-- ==================Fin Barra de Administrador================= -->
-
 	   <!-- Menu Superior -->
         <input type="checkbox" id="btn-menu">
         <label class="imagen-label" for="btn-menu"><img src="{{asset('Imagenes/icono-menu.png')}}" alt="" width="70px"></label>
@@ -162,7 +157,7 @@
         <footer>
             <div>
                 <h4>Dirección:</h4>
-                <a target="_blank" href="https://goo.gl/maps/cY3oks1Ka542" title="Google Maps" >
+                <a target="_blank" href="https://goo.gl/maps/cY3oks1Ka542" title="Abrir en Google Maps" >
                     Av San Pablo Xalpa 180, Reynosa Tamaulipas, 02200 Ciudad de México, CDMX
                 </a>
             </div>
